@@ -344,8 +344,8 @@ const DreamsPage: NextPage = () => {
                         whileTap={{ scale: 0.9 }}
                         className="transition-colors duration-200 p-1 rounded"
                         style={{ color: "rgba(250, 243, 224, 0.5)" }}
-                        onMouseEnter={(e) => (e.currentTarget.style.color = "#FF6EC7")}
-                        onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(250, 243, 224, 0.5)")}
+                        onMouseEnter={(e: React.MouseEvent<HTMLButtonElement>) => (e.currentTarget.style.color = "#FF6EC7")}
+                        onMouseLeave={(e: React.MouseEvent<HTMLButtonElement>) => (e.currentTarget.style.color = "rgba(250, 243, 224, 0.5)")}
                         aria-label="Delete dream"
                       >
                         <Trash2 size={18} />
