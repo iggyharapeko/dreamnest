@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm install --legacy-peer-deps && npx prisma generate && next build",
+  "buildCommand": "npm install tailwindcss postcss autoprefixer --legacy-peer-deps && npm install --legacy-peer-deps && npx prisma generate && next build",
   "devCommand": "npm run dev",
   "installCommand": "npm install --legacy-peer-deps",
   "framework": "nextjs",
