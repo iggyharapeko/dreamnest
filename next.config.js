@@ -7,6 +7,12 @@ const nextConfig = {
     };
     return config;
   },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 };
 
 module.exports = nextConfig; 
