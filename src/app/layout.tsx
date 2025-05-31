@@ -2,6 +2,7 @@
 
 import { Inter } from 'next/font/google'
 import './globals.css'
+import './custom.css'
 import { AuthProvider } from '@/context/AuthContext'
 import { AnimatePresence } from 'framer-motion'
 import { usePathname } from 'next/navigation'
