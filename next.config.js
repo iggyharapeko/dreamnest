@@ -6,13 +6,7 @@ const nextConfig = {
       '@': require('path').resolve(__dirname, 'src'),
     };
     return config;
-  },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
+  }
 };
 
 module.exports = nextConfig; 
